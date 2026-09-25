@@ -3,7 +3,7 @@ from flask import Flask, request
 app = Flask(__name__)
 HF_TOKEN=os.getenv("HF_TOKEN")
 PHONE_ID=os.getenv("PHONE_ID")
-WA_TOKEN=os.getenv("WA_TOKEN")⁹
+WA_TOKEN=os.getenv("WA_TOKEN")
 MODEL="Helsinki-NLP/opus-mt-en-xh"
 def translate(t):
  try:
